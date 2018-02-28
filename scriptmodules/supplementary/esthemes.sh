@@ -25,11 +25,11 @@ function install_theme_esthemes() {
     local theme="$1"
     local repo="$2"
     if [[ -z "$repo" ]]; then
-        repo="retr0rangepi"
+        repo="RetroJamo"
     fi
     if [[ -z "$theme" ]]; then
         theme="cosmos-ropi"
-        repo="retr0rangepi"
+        repo="RetroJamo"
     fi
     mkdir -p "/etc/emulationstation/themes"
     gitPullOrClone "/etc/emulationstation/themes/$theme" "https://github.com/$repo/es-theme-$theme.git"
@@ -112,8 +112,8 @@ function gui_esthemes() {
         'MrTomixf Royal_Primicia'
         'lostless playstation'
         'mrharias superdisplay'
-	'retr0rangepi cosmos-ropi'
-	'retr0rangepi hyperion'
+	'RetroJamo cosmos-ropi'
+	'RetroJamo hyperion'
         'coinjunkie synthwave'
         'RetroHursty69 magazinemadness'
         'RetroHursty69 stirling'
