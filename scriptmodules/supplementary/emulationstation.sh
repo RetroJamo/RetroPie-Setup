@@ -136,7 +136,7 @@ function depends_emulationstation() {
 function sources_emulationstation() {
     local repo="$1"
     local branch="$2"
-    [[ -z "$repo" ]] && repo="https://github.com/RetroJamo/EmulationStation"
+    [[ -z "$repo" ]] && repo="https://github.com/retr0rangepi/EmulationStation"
     [[ -z "$branch" ]] && branch="master"
     gitPullOrClone "$md_build" "$repo" "$branch"
 }
